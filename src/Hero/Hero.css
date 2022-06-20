@@ -1,0 +1,8 @@
+.one {
+  display: flex;50rem
+  justify-content: space-between;
+}
+
+.one-right img{
+width: 30rem;
+}

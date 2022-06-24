@@ -8,11 +8,23 @@ export default function Navbar() {
           <img src={Logo} alt="Logo" />
         </div>
         <div className="nav-links">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <a href="#">Blog</a>
-          <a href="#">Carers</a>
+          <span>
+            <a href="#">Home</a>
+          </span>
+          <span>
+            <a href="#">About</a>
+          </span>
+          <span>
+            {" "}
+            <a href="#">Contact</a>
+          </span>
+          <span>
+            <a href="#">Blog</a>
+          </span>
+          <span>
+            {" "}
+            <a href="#">Carers</a>
+          </span>
         </div>
         <div className="nav-btn">
           <button>Request Invite</button>

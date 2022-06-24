@@ -15,8 +15,7 @@ export default function Hero() {
           <button>Request Invite</button>
         </div>
         <div className="one-img one-right">
-          <img src={HeroImg} alt="Hero-img" />
-          <img src={Mobile} alt="Mobile" />
+          <img className="mobile-img" src={Mobile} alt="Mobile" />
         </div>
       </div>
       <div className="two"></div>

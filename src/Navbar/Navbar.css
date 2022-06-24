@@ -1,9 +1,43 @@
 nav {
   display: flex;
-  justify-content: space-between;
-  padding: 2rem;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  opacity: 80%;
 }
 .nav-links {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
+}
+
+.nav-btn button {
+  background-color: greenyellow;
+  border: none;
+  border-radius: 1rem;
+  width: 11rem;
+  height: 2.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 6rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.nav-links span {
+  padding-bottom: 1rem;
+  transition: 0.2s ease;
+}
+
+.nav-links span:hover {
+  border-bottom: 2px solid;
+  padding-bottom: 1rem;
 }
